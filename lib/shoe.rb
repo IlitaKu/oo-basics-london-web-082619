@@ -7,5 +7,7 @@ class Shoe
     @brand
   end
   attr_accessor :brand, :color, :size, :material, :condition
-  def 
+  def cobble
+    puts " The shoe has been repaired"
+  end
 end
